@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+flex-wrap: wrap;
+    padding: 10px 0  0 ;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.side1{
+    display: flex;
+    flex-direction: row;
+}
+
+.side1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777777;
+    font: 15px Lato, sans-serif;
+    padding: 0px 16px;
+}
+
+.home {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777777;
+    font: 15px Lato, sans-serif;
+}
+.home i{
+    margin-bottom: -5px;
+}
+#search {
+    padding: 6px 16px;
+    color: #777777;
+    text-transform: uppercase;
+}
+
+#home {
+    background-image: url(parallax1.jpg);
+    height: 73vh;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+#home h1 {
+    justify-content: center;
+    background-color: #000000;
+    color: #fff;
+    font: 24px Lato, sans-serif;
+    padding: 12px 24px;
+    letter-spacing: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+#about {
+    width: 100%;
+    text-align: center;
+}
+.ab{
+    width: 950px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+#about h1 {
+    font: 24px Lato, sans-serif;
+    color: #777777;
+    margin: 70px 0 0 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#about h2 {
+    margin: 20px;
+    color: #777777;
+    font: 15px Lato, sans-serif;
+    font-style: italic;
+}
+
+#about p {
+    margin-left: auto;
+    margin-right: auto;
+    color: #777777;
+    font: 15px Lato, sans-serif;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.mid {
+    margin-top: 20px;
+    display: flex; 
+    margin: auto;
+}
+.left h1 span{
+    color: #777777;
+    text-transform: capitalize;
+    font: 15px Lato, sans-serif;
+}
+.left{
+    width: 48%;
+    margin: auto;
+}
+.left i{
+margin: 0 10px;
+
+}
+.left .img{
+    padding:10px;
+    opacity: 0.60;
+width: 100%;
+}
+.img img{
+    width: 100%;
+    margin-top: 20px;
+}
+.right{
+    padding:  00px 0 0 30px;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+.right .rp{
+width: 100% ; 
+color: #777777;
+font: 15px Lato, sans-serif;
+line-height: 1.8;
+text-align: justify;
+
+}
+.im{
+    margin: 40px;
+    color: #777777;
+    font: 18px Lato, sans-serif;
+}
+.talent{
+    width: 100%;
+
+}
+.photography{
+    width: 100%;
+    text-align: left;
+}
+.photography h1 span{
+    width: 100%;
+    letter-spacing: 10px;
+    color: #777777;
+    text-transform: capitalize;
+font: 15px Lato, sans-serif;
+}
+.photography h1 i{
+    width: 100%;
+    letter-spacing: 10px;
+    color: #777777;
+    text-transform: capitalize;
+    text-overflow:inherit;
+}
+.line1{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+
+}
+.line2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: #616161;
+    color: #fff;
+    padding: 8px 16px;
+}
+.line2-1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    background-color: #616161;
+    color: #fff;
+    padding: 8px 16px;
+}
+.line2-2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    background-color: #616161;
+    color: #fff;
+    padding: 8px 16px;
+}
+.work{
+    background-color: #616161;
+    color: #fff;
+    margin: 70px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+font: 15px Lato, sans-serif;
+font-weight: 100;
+    width: 100%;
+    padding: 40px 0 ;
+    
+}
+.work .a span{
+font: 24px Lato, sans-serif;
+}
+.work .a{
+text-align: center;
+
+}
+#portfolio{
+    background-image: url(parallax2.jpg);
+    height: 63vh;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    display: flex;
+    opacity: 0.75;
+}
+#portfolio h1{
+    color: #fff;
+    text-transform: uppercase;
+    font: 36px Lato, sans-serif;
+    letter-spacing: 10px;
+}
+.portfolio{
+    text-align: center;
+}
+.portfolio h1{
+    font: 24px Lato, sans-serif;
+    color: #777777;
+    margin: 70px 0 0 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.portfolio h2{
+    margin: 20px;
+    color: #777777;
+    font: 15px Lato, sans-serif;
+    font-style: italic;
+line-height: 1.8;
+}
+.portfolio .img4{
+    display: flex;
+}
+.img4 img{
+    width: 24%;
+    margin: 10px auto;
+
+}
+.img5{
+    display: flex;
+}
+.img5 img{
+    width: 24%;
+    margin: auto;
+}
+.portfolio button{
+    padding: 12px 24px;
+    font: 15px Lato, sans-serif;
+    background-color: #f1f1f1;
+    margin: 64px 0 ;
+    color: #000000;
+    border: none;
+    text-transform: uppercase;
+
+}
+.contact{
+    background-image: url(parallax3.jpg);
+    height: 63vh;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    opacity: 0.75;
+}
+.contact h1{
+    color: #fff;
+    font: 36px Lato, sans-serif;
+}
+#contact{
+    text-align: center;
+}
+#contact h1{
+    font: 24px Lato, sans-serif;
+    color: #777777;
+    margin: 70px 0 0 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#contact h2{
+    margin: 20px;
+    color: #777777;
+    font: 15px Lato, sans-serif;
+    font-style: italic;
+line-height: 1.8;
+}
+.info{
+    width: 100%;
+    margin:40px 0 ;
+    display: flex;
+}
+.info img{
+width: 30%;
+height: 50%;
+}
+.loca{
+    text-align: left;
+    width: 100%;
+    margin: 0 0 0 35px  ;
+}
+.loca i{
+    margin: 8px 0;
+    color: #777777;
+}
+.loca i span{
+    font: 18px Lato, sans-serif;
+    color: #777777;
+    margin:  0 10px 0 16px;  
+    font-weight: 500;
+}
+.loca h3{
+    margin: 10px 0;
+    color: #777777;
+    font: 15px Lato, sans-serif;
+line-height: 1.8;
+}
+form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.row input{
+    padding:12px 8px;
+    width:49% ;
+    margin: 10px 0;
+    font: 15px Lato, sans-serif;
+    border: 1px solid #ccc !important;
+    
+}
+#message{
+    width: 100%;
+    padding:12px 8px;
+    font: 15px Lato, sans-serif;
+    border: 1px solid #ccc !important;
+}
+form button{
+    font: 15px Lato, sans-serif;
+    display: flex;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #fff;
+    margin: 16px 0;
+    padding: 8px 16px;
+    text-align: center;
+    justify-content: center;
+}
+.sen{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #777777;
+    width: 100%;
+    color: #fff;
+}
+.f{
+    padding: 70PX 0;
+
+}
+
+.f button{
+    font: 15px Lato, sans-serif;
+    padding: 10px 16px;
+}
+
+
+.f button a{
+    text-decoration: none;
+}
+.i6{
+    width: 100%;
+    font: 24px Lato, sans-serif;
+    color: #fff;
+    margin: 16px 0;
+}
+.P a{
+    color: #fff;
+
+}
